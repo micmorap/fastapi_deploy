@@ -6,7 +6,6 @@ from joblib import load
 
 app = FastAPI()
 
-
 @app.get("/")
 def read_root():
     return {"message": "Hello"}
